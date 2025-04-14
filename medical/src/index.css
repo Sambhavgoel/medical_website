@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add this to your global CSS file (e.g., tailwind.css or custom.css) */
+.hospital-icon:hover {
+    transform: scale(1.2); /* Zoom in effect for hospitals */
+    transition: transform 0.3s ease;
+  }
+  
+  .city-icon:hover {
+    transform: scale(1.1); /* Slight zoom for cities */
+    transition: transform 0.3s ease;
+  }
+  
